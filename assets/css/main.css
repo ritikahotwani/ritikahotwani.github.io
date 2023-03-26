@@ -986,22 +986,25 @@ body {
   background-repeat: no-repeat;
 }
 .about--options > a:nth-child(1) {
-  background-image: url("../img/about-winners.jpg");
+
+  background-image: url("../img/PATENTED (2).png");
 }
 .about--options > a:nth-child(2) {
-  background-image: url("../img/about-philosophy.jpg");
+  background-image: url("../img/pradarshini.png");
 }
 .about--options > a:nth-child(3) {
-  background-image: url("../img/about-history.jpg");
+  background-image: url("../img/PATENTED.png");
 }
-.about--options > a:hover h3 {
+.about--options > a:hover h3,h4 {
   bottom: -50px;
+  
 }
-.about--options h3 {
+.about--options h3,h4 {
+  text-size-adjust:auto ;
   position: absolute;
   bottom: -38px;
   left: 10px;
-  font-size: 16px;
+  font-size: 12px;
   text-transform: uppercase;
   transition: bottom 0.2s ease-in-out, left 0.2s ease-in-out;
 }
@@ -1075,13 +1078,13 @@ body {
 }
 .contact--lockup {
   position: relative;
-  display: flex;
+  display: center;
   width: 900px;
   max-width: 75%;
   height: 100%;
   align-items: center;
   justify-content: flex-end;
-  margin: 0 auto;
+  margin: 200px auto;
 }
 @media (max-width: 1180px) {
   .contact--lockup {
